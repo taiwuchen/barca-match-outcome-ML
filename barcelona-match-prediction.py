@@ -8,7 +8,7 @@ will win, draw, or lose based on performance metrics.
 
 Instructions:
 1. Download the FC Barcelona Match Performance Dataset from Kaggle: 
-   https://www.kaggle.com/datasets/azminetoushikwasi/fc-barcelona-match-data
+   https://www.kaggle.com/datasets/adnanshaikh10/fc-barcelona-statistics
 2. Save the CSV file in the same directory as this notebook
 3. Run the notebook cells in order
 """
@@ -34,7 +34,7 @@ np.random.seed(42)
 # 1. DATA LOADING AND EXPLORATION
 
 # Load the dataset
-def load_data(filepath='barcelona_data.csv'):
+def load_data(filepath='FC Barcelona Statistics.csv'):
     """Load the FC Barcelona match data from CSV."""
     try:
         df = pd.read_csv(filepath)
