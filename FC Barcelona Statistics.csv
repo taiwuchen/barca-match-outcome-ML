@@ -1,0 +1,201 @@
+Date,Opponent,Home/Away,Competition,Goals Scored,Goals Conceded,Possession (%),Shots on Target,xG,Pass Accuracy (%),Tackles Won,Key Passes,Result,Injury Impact (%),Rest Days Before Match,Opponent Strength (ELO Rating),Weather Conditions,Managerial Change (Yes/No)
+01-01-2020,Villarreal,Home,Copa del Rey,5,4,67,1,1.4,93,11,3,Win,23,9,1714,Windy,Yes
+11-01-2020,Mallorca,Home,Copa del Rey,2,3,53,4,3.25,88,17,14,Loss,0,9,1681,Cold,Yes
+21-01-2020,Real Madrid,Home,La Liga,0,4,56,10,2.94,83,6,3,Loss,17,10,1752,Sunny,Yes
+25-01-2020,Mallorca,Away,La Liga,4,5,71,2,2.97,89,5,14,Loss,25,8,1514,Cold,Yes
+28-01-2020,Valencia,Home,Champions League,1,0,66,1,2.96,88,20,13,Win,10,3,1852,Windy,Yes
+29-01-2020,Valencia,Away,Copa del Rey,0,5,45,1,1.51,94,16,10,Loss,22,3,1849,Rainy,No
+18-02-2020,Levante,Away,Copa del Rey,0,5,46,1,0.51,86,18,11,Loss,28,9,1883,Cold,Yes
+20-02-2020,Real Sociedad,Away,Copa del Rey,1,0,73,4,1.94,81,5,8,Win,19,7,1623,Windy,No
+20-02-2020,Osasuna,Home,La Liga,5,0,74,3,1,82,9,7,Win,27,8,1834,Rainy,Yes
+24-02-2020,Atletico Madrid,Home,La Liga,4,2,74,10,1.23,89,20,14,Win,20,5,1947,Windy,No
+13-03-2020,Espanyol,Home,Champions League,3,5,72,6,2.6,81,18,12,Loss,17,7,1521,Windy,Yes
+29-03-2020,Athletic Club,Away,Copa del Rey,2,0,67,6,2.58,80,16,12,Win,3,6,1596,Sunny,Yes
+31-03-2020,Espanyol,Home,La Liga,2,4,61,1,1.82,84,20,15,Loss,15,7,1850,Sunny,Yes
+31-03-2020,Mallorca,Home,Champions League,2,0,56,9,3.27,90,20,14,Win,12,4,1543,Sunny,Yes
+05-04-2020,Villarreal,Home,Champions League,3,4,73,2,2.84,82,19,5,Loss,6,9,1588,Sunny,Yes
+06-04-2020,Osasuna,Away,La Liga,0,2,62,2,0.88,92,5,13,Loss,29,9,1646,Windy,Yes
+08-04-2020,Levante,Away,Champions League,2,0,73,6,2.12,88,11,13,Win,15,3,1659,Cold,No
+18-04-2020,Atletico Madrid,Home,Champions League,0,3,67,3,2.29,90,5,7,Loss,30,6,1616,Rainy,No
+27-04-2020,Mallorca,Away,La Liga,2,0,56,1,2.43,87,7,5,Win,8,4,1586,Windy,No
+29-04-2020,Villarreal,Home,La Liga,3,2,53,2,3.03,80,14,12,Win,17,5,1667,Cold,Yes
+05-05-2020,Espanyol,Home,Champions League,2,3,66,8,1.94,85,10,6,Loss,26,4,1638,Cold,Yes
+06-05-2020,Granada,Away,La Liga,1,3,62,8,2.02,95,19,6,Loss,18,5,1805,Sunny,Yes
+12-05-2020,Getafe,Home,Copa del Rey,4,0,55,5,1.21,81,20,4,Win,22,4,1659,Rainy,Yes
+20-05-2020,Real Sociedad,Home,Copa del Rey,1,1,55,4,3.14,80,17,11,Draw,16,7,1691,Cold,Yes
+25-05-2020,Getafe,Away,La Liga,1,3,69,10,1.07,91,12,15,Loss,10,9,1918,Sunny,No
+04-06-2020,Osasuna,Away,La Liga,0,1,72,3,2.75,95,11,6,Loss,12,6,1529,Rainy,Yes
+09-06-2020,Valencia,Away,Champions League,1,0,66,4,2.09,95,11,5,Win,11,10,1647,Rainy,Yes
+14-06-2020,Atletico Madrid,Away,La Liga,3,1,74,3,0.8,82,5,13,Win,2,3,1867,Sunny,No
+17-06-2020,Espanyol,Away,Champions League,2,0,48,7,2.93,86,5,9,Win,1,7,1932,Cold,Yes
+29-06-2020,Espanyol,Home,La Liga,4,5,53,10,0.95,89,8,14,Loss,3,5,1912,Rainy,Yes
+17-07-2020,Villarreal,Away,La Liga,2,4,50,2,1.4,88,16,3,Loss,5,6,1737,Sunny,Yes
+23-07-2020,Villarreal,Home,Champions League,3,3,52,10,1.02,94,12,8,Draw,26,5,1620,Rainy,No
+04-08-2020,Getafe,Away,Copa del Rey,3,3,57,4,0.93,83,20,14,Draw,12,6,1817,Windy,Yes
+10-08-2020,Mallorca,Away,La Liga,5,5,63,9,2.83,82,17,7,Draw,11,6,1596,Cold,No
+16-08-2020,Athletic Club,Home,La Liga,2,2,65,6,2.88,83,12,12,Draw,14,7,1731,Cold,No
+18-08-2020,Atletico Madrid,Home,La Liga,3,1,64,7,0.82,83,9,12,Win,7,9,1549,Rainy,Yes
+20-08-2020,Betis,Away,Copa del Rey,1,0,71,7,2.14,82,5,8,Win,25,10,1637,Cold,No
+22-08-2020,Osasuna,Away,La Liga,1,5,72,8,3.13,88,10,7,Loss,18,6,1615,Cold,No
+28-08-2020,Osasuna,Home,Copa del Rey,2,1,52,9,2.22,91,20,11,Win,16,6,1842,Windy,No
+05-09-2020,Villarreal,Home,Champions League,0,4,63,6,3.35,90,14,3,Loss,26,10,2000,Windy,No
+06-09-2020,Villarreal,Home,Copa del Rey,0,0,63,3,3.38,93,5,11,Draw,20,9,1837,Cold,Yes
+09-09-2020,Valencia,Home,Champions League,4,5,67,9,3.14,80,8,12,Loss,28,10,1947,Rainy,Yes
+09-09-2020,Athletic Club,Away,La Liga,0,4,52,5,2.88,84,16,10,Loss,28,9,1705,Windy,Yes
+12-09-2020,Betis,Away,Copa del Rey,5,2,53,5,2.32,85,12,5,Win,9,3,1582,Sunny,No
+17-09-2020,Villarreal,Away,Champions League,5,2,54,5,3.43,87,13,14,Win,24,10,1700,Rainy,No
+27-09-2020,Athletic Club,Away,La Liga,3,5,51,5,2.96,91,17,11,Loss,21,10,1789,Windy,Yes
+30-09-2020,Atletico Madrid,Home,La Liga,3,1,70,6,3.26,91,11,6,Win,4,8,1886,Rainy,No
+30-09-2020,Osasuna,Away,Copa del Rey,2,2,50,6,0.55,94,12,11,Draw,24,6,2000,Cold,Yes
+02-10-2020,Sevilla,Home,Copa del Rey,0,2,60,2,2.64,89,9,9,Loss,8,8,1819,Cold,Yes
+03-10-2020,Atletico Madrid,Home,Champions League,2,1,48,9,1.61,91,5,9,Win,2,3,1699,Rainy,Yes
+06-10-2020,Real Sociedad,Away,Copa del Rey,5,1,57,3,1.63,95,7,10,Win,30,9,1767,Cold,No
+15-10-2020,Athletic Club,Away,Copa del Rey,2,2,54,9,0.89,92,11,10,Draw,13,6,1587,Cold,No
+21-10-2020,Granada,Home,La Liga,1,4,50,9,3.5,94,17,13,Loss,0,9,1864,Sunny,Yes
+27-10-2020,Betis,Away,Champions League,0,3,75,3,2.74,84,13,13,Loss,11,3,1753,Sunny,Yes
+31-10-2020,Espanyol,Home,La Liga,2,2,58,6,0.75,83,14,11,Draw,18,8,1981,Sunny,No
+02-11-2020,Getafe,Away,La Liga,4,3,54,1,3.33,91,11,13,Win,1,8,1826,Windy,No
+14-11-2020,Levante,Home,Copa del Rey,5,0,50,9,1.1,84,19,8,Win,16,8,1700,Cold,Yes
+21-11-2020,Athletic Club,Away,Copa del Rey,3,3,69,1,0.88,95,15,14,Draw,12,3,1747,Sunny,Yes
+02-12-2020,Athletic Club,Away,La Liga,3,0,57,8,1.82,86,11,5,Win,13,8,1839,Sunny,Yes
+02-12-2020,Villarreal,Away,Champions League,5,2,58,5,2.38,83,9,5,Win,12,10,1928,Cold,No
+10-12-2020,Granada,Home,La Liga,2,2,65,4,2.97,85,7,6,Draw,9,7,1853,Rainy,No
+16-12-2020,Villarreal,Home,Copa del Rey,0,4,47,6,0.76,92,19,3,Loss,7,6,1555,Cold,Yes
+01-01-2021,Betis,Home,Copa del Rey,1,3,63,8,3.19,85,5,9,Loss,15,5,2000,Sunny,Yes
+04-01-2021,Betis,Home,La Liga,2,1,57,1,3.29,93,20,9,Win,19,9,1928,Sunny,No
+05-01-2021,Betis,Home,La Liga,5,4,50,1,3.31,90,10,6,Win,6,5,1907,Windy,No
+11-01-2021,Sevilla,Home,La Liga,5,0,50,3,3.45,95,20,8,Win,9,6,1843,Rainy,No
+11-01-2021,Valencia,Home,La Liga,1,4,58,1,2.64,89,20,15,Loss,29,7,1778,Rainy,No
+19-01-2021,Valencia,Home,Copa del Rey,4,5,51,6,2.82,87,11,8,Loss,16,4,1865,Sunny,Yes
+22-01-2021,Osasuna,Home,Champions League,0,4,59,3,2.18,90,7,4,Loss,13,5,1771,Cold,Yes
+23-01-2021,Sevilla,Away,Champions League,2,4,59,10,2.05,87,12,14,Loss,24,9,1834,Sunny,Yes
+28-01-2021,Sevilla,Home,La Liga,4,2,67,6,2.97,80,6,8,Win,22,4,1505,Windy,Yes
+04-02-2021,Granada,Away,La Liga,2,0,67,8,2.8,88,12,10,Win,23,3,1776,Sunny,No
+18-02-2021,Levante,Home,Champions League,1,3,73,5,3.24,88,13,6,Loss,28,6,1759,Windy,Yes
+20-02-2021,Villarreal,Away,Champions League,4,3,71,1,0.8,95,6,11,Win,26,10,1913,Windy,No
+24-02-2021,Espanyol,Away,Champions League,1,5,60,6,3.39,80,19,9,Loss,20,9,1817,Windy,No
+08-03-2021,Granada,Away,Champions League,2,4,53,8,3.25,89,14,7,Loss,22,4,1739,Sunny,No
+16-03-2021,Mallorca,Away,Champions League,0,4,71,9,2.52,95,16,9,Loss,6,7,1580,Cold,Yes
+17-03-2021,Athletic Club,Home,Champions League,5,3,75,9,0.67,90,19,14,Win,14,7,1521,Sunny,Yes
+20-03-2021,Betis,Home,La Liga,4,4,61,6,2.2,93,9,6,Draw,16,9,1669,Rainy,Yes
+21-03-2021,Getafe,Home,Copa del Rey,0,2,62,6,1.35,80,9,5,Loss,29,10,1759,Sunny,No
+29-03-2021,Betis,Away,La Liga,0,5,56,1,2.61,90,10,7,Loss,4,5,1643,Sunny,No
+01-04-2021,Athletic Club,Home,La Liga,0,5,51,4,0.9,94,17,3,Loss,12,9,1983,Sunny,Yes
+05-04-2021,Espanyol,Home,Copa del Rey,5,0,71,5,3,80,9,12,Win,24,9,1866,Sunny,Yes
+07-04-2021,Atletico Madrid,Home,Champions League,2,4,57,3,2.28,87,12,10,Loss,3,4,1523,Sunny,Yes
+14-04-2021,Mallorca,Home,Copa del Rey,4,3,75,10,3.06,94,9,8,Win,29,10,1652,Windy,No
+22-04-2021,Osasuna,Away,La Liga,0,0,71,8,2.45,95,5,15,Draw,30,5,1967,Cold,No
+28-04-2021,Osasuna,Home,Champions League,4,5,74,1,1.98,85,7,7,Loss,24,4,1749,Sunny,No
+28-04-2021,Granada,Away,La Liga,4,1,55,10,2.66,94,16,14,Win,3,7,1842,Rainy,No
+01-05-2021,Atletico Madrid,Away,Copa del Rey,2,0,50,7,3.17,89,16,11,Win,12,8,1680,Cold,Yes
+03-05-2021,Osasuna,Home,Copa del Rey,3,5,75,8,2.73,91,6,9,Loss,4,9,1916,Rainy,No
+07-05-2021,Villarreal,Home,La Liga,4,2,51,2,1.96,89,13,3,Win,8,10,1985,Cold,Yes
+10-05-2021,Real Sociedad,Away,Champions League,5,3,59,10,3.36,92,13,15,Win,3,6,1774,Cold,Yes
+10-05-2021,Getafe,Away,Copa del Rey,2,0,67,10,1.56,85,13,6,Win,21,4,1836,Sunny,Yes
+12-05-2021,Betis,Away,La Liga,5,0,63,2,0.85,91,20,14,Win,9,9,1778,Sunny,No
+19-05-2021,Levante,Away,La Liga,4,3,52,9,0.73,89,9,10,Win,27,7,1929,Rainy,Yes
+19-05-2021,Getafe,Home,La Liga,5,4,67,3,1.81,83,13,7,Win,22,5,1504,Sunny,No
+25-05-2021,Espanyol,Home,Copa del Rey,4,2,51,4,3.36,93,12,15,Win,24,4,1972,Cold,No
+15-06-2021,Getafe,Home,Champions League,1,0,47,5,1.49,84,17,11,Win,9,8,1989,Cold,No
+04-07-2021,Valencia,Home,Champions League,3,0,68,2,1.97,83,10,6,Win,3,3,1876,Sunny,Yes
+18-07-2021,Granada,Home,Champions League,3,3,69,1,1.55,90,11,8,Draw,1,3,1629,Sunny,Yes
+29-07-2021,Getafe,Away,Copa del Rey,2,0,45,9,3.05,92,8,4,Win,18,9,1971,Windy,No
+30-07-2021,Osasuna,Home,Champions League,0,4,67,2,0.51,94,17,10,Loss,18,6,1918,Cold,Yes
+07-08-2021,Getafe,Home,La Liga,4,3,57,3,2.75,91,20,14,Win,22,9,1564,Sunny,No
+11-08-2021,Atletico Madrid,Home,Champions League,5,4,56,7,3.28,80,11,3,Win,1,9,1789,Cold,Yes
+11-08-2021,Mallorca,Home,Copa del Rey,2,4,53,6,1.51,88,19,12,Loss,19,10,1727,Windy,No
+18-08-2021,Osasuna,Away,Copa del Rey,0,0,55,2,1.09,92,16,5,Draw,8,8,1840,Windy,No
+23-08-2021,Granada,Away,La Liga,2,4,57,5,2.58,80,19,7,Loss,8,3,1586,Sunny,Yes
+08-09-2021,Real Sociedad,Away,Champions League,2,5,56,2,2.56,88,10,9,Loss,26,4,1957,Rainy,No
+08-09-2021,Real Sociedad,Home,Champions League,2,1,58,9,2.79,83,11,10,Win,11,6,1726,Sunny,Yes
+12-09-2021,Levante,Home,La Liga,5,1,45,10,3.15,89,11,13,Win,25,9,1969,Cold,No
+17-09-2021,Valencia,Home,La Liga,3,1,52,7,1.16,91,17,14,Win,26,4,1784,Windy,No
+22-09-2021,Real Madrid,Away,La Liga,1,0,60,1,1.36,84,12,5,Win,1,8,1540,Rainy,Yes
+24-09-2021,Betis,Home,Champions League,1,4,51,5,0.57,92,5,11,Loss,27,8,1764,Sunny,No
+24-09-2021,Betis,Away,La Liga,5,0,47,3,3.01,92,17,5,Win,3,7,1989,Rainy,Yes
+27-09-2021,Valencia,Away,Champions League,1,5,60,7,3.07,92,5,13,Loss,19,10,1862,Sunny,No
+28-09-2021,Real Sociedad,Home,Copa del Rey,0,4,65,4,1.54,95,17,12,Loss,13,6,1726,Rainy,No
+02-10-2021,Osasuna,Home,Copa del Rey,3,4,56,9,1.7,93,11,12,Loss,13,4,1778,Cold,Yes
+07-10-2021,Getafe,Away,Champions League,3,0,66,9,1.44,89,5,13,Win,6,7,1700,Windy,Yes
+10-10-2021,Betis,Away,La Liga,4,4,48,7,3.19,80,9,14,Draw,24,4,1548,Windy,No
+09-11-2021,Osasuna,Away,La Liga,4,0,65,3,3.48,92,17,15,Win,8,8,1548,Sunny,No
+11-11-2021,Getafe,Home,Copa del Rey,0,3,64,8,0.58,83,12,6,Loss,24,8,1809,Cold,Yes
+11-11-2021,Betis,Away,La Liga,5,1,72,6,2.55,87,18,3,Win,4,9,1996,Cold,No
+15-11-2021,Betis,Away,Champions League,4,3,69,10,0.57,90,11,14,Win,30,8,1569,Cold,No
+16-11-2021,Espanyol,Home,Copa del Rey,5,2,62,10,0.83,82,11,14,Win,3,4,1805,Cold,No
+01-12-2021,Valencia,Away,La Liga,3,2,60,8,3.32,80,10,3,Win,9,7,1758,Cold,No
+16-12-2021,Getafe,Away,Champions League,0,3,72,5,1.27,83,6,8,Loss,0,6,1724,Sunny,No
+21-12-2021,Mallorca,Home,Copa del Rey,5,0,49,10,0.68,82,14,11,Win,5,4,1747,Cold,Yes
+22-12-2021,Betis,Home,Champions League,3,5,74,9,3.39,84,7,4,Loss,22,9,1585,Rainy,No
+20-01-2022,Valencia,Away,La Liga,4,3,65,8,1.47,91,6,12,Win,0,3,1841,Sunny,Yes
+30-01-2022,Real Madrid,Home,Copa del Rey,0,2,47,10,1.96,88,16,13,Loss,21,8,1622,Sunny,No
+02-02-2022,Granada,Away,La Liga,2,3,48,4,2.56,86,13,10,Loss,29,5,1725,Rainy,Yes
+19-02-2022,Espanyol,Away,Copa del Rey,0,0,51,3,3.23,80,18,12,Draw,14,3,1707,Cold,No
+19-02-2022,Real Sociedad,Away,La Liga,4,4,71,10,1.69,82,18,15,Draw,22,6,1826,Rainy,Yes
+27-02-2022,Real Sociedad,Away,Copa del Rey,3,3,45,6,0.82,85,17,11,Draw,21,4,1749,Sunny,No
+03-03-2022,Mallorca,Away,Champions League,4,0,68,8,3.29,85,16,5,Win,16,5,1989,Windy,No
+03-03-2022,Villarreal,Away,La Liga,2,4,54,5,1.87,89,16,6,Loss,24,5,1809,Rainy,Yes
+11-03-2022,Villarreal,Away,Champions League,0,5,59,5,1.26,95,15,10,Loss,28,9,1907,Rainy,No
+11-03-2022,Real Madrid,Away,La Liga,5,1,63,9,1.59,82,7,5,Win,4,8,1747,Sunny,Yes
+23-03-2022,Sevilla,Home,Copa del Rey,4,2,64,5,3.03,83,14,13,Win,22,7,1772,Sunny,No
+30-03-2022,Atletico Madrid,Home,La Liga,3,3,55,4,1.52,87,17,3,Draw,14,9,1538,Rainy,Yes
+12-04-2022,Valencia,Away,La Liga,0,3,71,7,0.82,93,8,11,Loss,22,8,1547,Cold,Yes
+20-04-2022,Athletic Club,Home,Champions League,2,0,62,9,1.69,94,12,14,Win,23,9,1848,Cold,Yes
+25-04-2022,Getafe,Away,Champions League,5,0,65,7,1.11,81,16,13,Win,27,9,1590,Windy,No
+11-05-2022,Real Sociedad,Away,Copa del Rey,5,4,75,2,0.98,91,9,12,Win,22,4,1896,Sunny,Yes
+20-05-2022,Osasuna,Home,Champions League,0,3,58,6,1.02,94,9,11,Loss,25,10,1827,Cold,Yes
+20-05-2022,Getafe,Away,Copa del Rey,1,4,70,5,3.24,90,14,8,Loss,2,5,1892,Rainy,No
+15-06-2022,Granada,Away,La Liga,3,0,66,10,1.95,88,16,8,Win,16,9,1709,Rainy,No
+19-06-2022,Granada,Home,La Liga,0,4,45,10,1.34,80,12,3,Loss,14,5,1555,Windy,Yes
+19-06-2022,Granada,Home,Copa del Rey,0,2,51,7,1.08,83,12,5,Loss,5,6,1956,Windy,No
+29-06-2022,Betis,Home,La Liga,1,3,64,5,1.11,90,19,13,Loss,21,5,1981,Cold,No
+29-06-2022,Athletic Club,Away,Copa del Rey,1,0,61,4,2.8,86,11,5,Win,20,5,1879,Cold,No
+27-07-2022,Atletico Madrid,Away,Champions League,2,4,59,3,1.83,88,16,4,Loss,1,3,1541,Rainy,Yes
+08-08-2022,Mallorca,Home,Copa del Rey,4,4,50,8,3.26,93,16,9,Draw,13,4,1752,Windy,No
+18-08-2022,Levante,Home,Champions League,5,1,59,3,2.1,87,15,3,Win,19,6,1853,Sunny,Yes
+30-08-2022,Villarreal,Home,Copa del Rey,4,2,64,4,1.29,85,9,11,Win,16,9,1977,Sunny,Yes
+05-09-2022,Getafe,Away,Champions League,3,5,59,10,2.22,88,11,3,Loss,12,10,1948,Rainy,No
+26-09-2022,Villarreal,Home,Champions League,5,4,59,8,2.64,80,15,15,Win,25,5,1714,Sunny,Yes
+07-10-2022,Levante,Home,La Liga,2,4,50,7,1.13,86,6,8,Loss,29,3,1698,Rainy,No
+12-10-2022,Osasuna,Home,Copa del Rey,3,2,61,7,1.04,87,18,8,Win,3,4,1755,Windy,No
+09-11-2022,Levante,Away,Champions League,1,5,71,9,0.71,84,5,13,Loss,16,8,1926,Windy,Yes
+28-11-2022,Real Madrid,Away,Copa del Rey,2,3,45,8,1.24,82,5,11,Loss,11,8,1755,Rainy,No
+30-11-2022,Atletico Madrid,Away,Copa del Rey,0,0,63,10,2.72,85,18,12,Draw,8,10,1955,Sunny,Yes
+06-12-2022,Levante,Away,Champions League,1,3,55,8,1.18,88,8,11,Loss,22,7,1851,Cold,Yes
+07-12-2022,Espanyol,Home,La Liga,5,0,63,10,2.54,91,17,7,Win,7,10,1796,Sunny,No
+07-12-2022,Villarreal,Home,Copa del Rey,5,0,71,10,3.42,87,7,13,Win,15,7,1832,Sunny,No
+10-12-2022,Real Sociedad,Home,La Liga,5,4,49,10,2.52,91,8,5,Win,4,9,1648,Sunny,Yes
+21-12-2022,Levante,Home,La Liga,0,0,73,1,1.09,88,9,10,Draw,0,3,1553,Windy,Yes
+03-01-2023,Osasuna,Away,Copa del Rey,4,3,56,5,1.4,88,12,6,Win,14,9,1561,Windy,No
+25-01-2023,Levante,Home,Copa del Rey,0,1,60,10,1.99,84,20,9,Loss,7,4,1526,Rainy,Yes
+02-02-2023,Granada,Away,Copa del Rey,3,4,46,6,0.8,81,7,5,Loss,27,9,1779,Sunny,No
+22-03-2023,Valencia,Home,La Liga,0,3,64,5,1.23,80,19,8,Loss,1,3,1838,Sunny,Yes
+26-03-2023,Granada,Away,Champions League,0,1,60,7,3.36,82,14,6,Loss,0,4,1599,Cold,Yes
+09-04-2023,Sevilla,Home,La Liga,4,1,63,5,2.54,80,9,3,Win,27,6,1723,Sunny,No
+25-04-2023,Mallorca,Home,La Liga,4,4,56,9,3.48,93,20,7,Draw,11,5,1672,Rainy,Yes
+01-05-2023,Villarreal,Home,Champions League,4,5,75,7,1.33,94,20,14,Loss,28,6,1811,Sunny,Yes
+10-05-2023,Espanyol,Home,La Liga,1,4,56,2,1.55,82,11,15,Loss,5,9,1977,Cold,Yes
+05-06-2023,Athletic Club,Away,Champions League,4,2,69,8,2.25,91,14,8,Win,20,10,1873,Windy,Yes
+14-06-2023,Atletico Madrid,Away,Copa del Rey,1,0,52,1,1.36,81,19,13,Win,16,10,1894,Sunny,No
+21-06-2023,Granada,Home,Champions League,5,0,62,10,0.58,90,9,10,Win,27,4,1850,Windy,Yes
+02-07-2023,Espanyol,Away,Copa del Rey,4,1,63,5,1.42,94,7,13,Win,14,10,1953,Sunny,No
+21-08-2023,Real Sociedad,Home,La Liga,1,0,45,4,1.72,81,17,14,Win,6,4,1565,Sunny,Yes
+12-09-2023,Betis,Away,Champions League,1,5,70,6,2.05,94,20,13,Loss,17,4,1690,Cold,Yes
+13-09-2023,Valencia,Away,Copa del Rey,1,0,63,4,2.38,95,16,9,Win,15,7,1724,Sunny,No
+09-11-2023,Mallorca,Home,Copa del Rey,5,5,52,9,0.81,95,6,5,Draw,14,6,1683,Sunny,Yes
+14-11-2023,Levante,Home,Copa del Rey,3,1,54,3,1.37,89,10,12,Win,0,5,1967,Windy,Yes
+25-11-2023,Villarreal,Away,La Liga,0,4,54,8,2.35,81,8,10,Loss,9,7,1983,Rainy,Yes
+11-12-2023,Granada,Home,La Liga,0,2,55,10,1.84,80,6,8,Loss,17,10,1685,Windy,No
+31-12-2023,Sevilla,Away,La Liga,0,5,47,2,1.36,82,7,7,Loss,19,4,1925,Sunny,Yes
+16-01-2024,Levante,Away,La Liga,3,2,75,10,1.68,83,7,4,Win,10,9,1596,Windy,No
+20-01-2024,Mallorca,Home,Champions League,3,2,51,9,0.71,90,20,5,Win,24,3,1504,Cold,Yes
+12-02-2024,Granada,Home,La Liga,3,5,53,8,2.39,93,5,8,Loss,30,6,1811,Windy,Yes
+21-02-2024,Valencia,Home,La Liga,2,3,71,4,3.18,87,15,14,Loss,26,8,1741,Cold,No
+28-03-2024,Mallorca,Home,Champions League,0,2,58,7,0.77,80,17,12,Loss,9,4,1532,Cold,No
+14-07-2024,Mallorca,Away,La Liga,3,5,45,2,1.29,80,20,10,Loss,17,8,1805,Sunny,Yes
+01-08-2024,Sevilla,Home,La Liga,2,3,51,6,2.24,85,19,3,Loss,21,3,1748,Rainy,No
+10-08-2024,Valencia,Home,La Liga,2,5,67,6,2.15,82,14,6,Loss,6,5,1594,Rainy,No
+06-09-2024,Real Madrid,Home,Copa del Rey,1,2,53,4,0.93,88,14,9,Loss,22,5,1605,Sunny,Yes
+26-09-2024,Betis,Home,Copa del Rey,5,4,51,2,1.7,86,9,11,Win,24,10,1705,Sunny,No
+12-10-2024,Athletic Club,Away,Copa del Rey,3,2,53,8,2.43,92,12,3,Win,21,3,1770,Sunny,Yes
+25-03-2025,Osasuna,Home,Copa del Rey,5,3,71,3,0.62,88,18,15,Win,15,3,1945,Rainy,Yes
