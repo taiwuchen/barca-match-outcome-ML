@@ -1,18 +1,3 @@
-# FC Barcelona Match Outcome Prediction using Machine Learning
-# ENSF 444 Project
-
-"""
-This notebook implements machine learning models to predict FC Barcelona match outcomes.
-The models compare Logistic Regression, Random Forest, and SVM to predict whether Barcelona
-will win, draw, or lose based on performance metrics.
-
-Instructions:
-1. Download the FC Barcelona Match Performance Dataset from Kaggle: 
-   https://www.kaggle.com/datasets/adnanshaikh10/fc-barcelona-statistics
-2. Save the CSV file in the same directory as this notebook
-3. Run the notebook cells in order
-"""
-
 # Import necessary libraries
 import pandas as pd
 import numpy as np
