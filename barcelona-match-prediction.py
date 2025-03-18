@@ -10,6 +10,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.pipeline import Pipeline
+from sklearn.ensemble import GradientBoostingClassifier
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -113,83 +114,36 @@ def preprocess_data(df):
         print("ERROR: Input dataframe is empty.")
         return None, None, None, None, []
     
-    # First, print all available columns for debugging
-    print("\nAll available columns in the dataset:")
-    print(data.columns.tolist())
-    
-    # Check if 'Result' column exists or find an alternative
-    result_column = None
-    possible_result_columns = ['Result', 'MatchResult', 'Outcome', 'FTR', 'Match Result']
-    
-    for col in possible_result_columns:
-        if col in data.columns:
-            result_column = col
-            print(f"Found result column: '{result_column}'")
-            break
-    
-    if result_column is None:
-        print("ERROR: Could not find a match result column.")
-        print(f"Available columns: {data.columns.tolist()}")
+    # Check if 'Result' column exists
+    if 'Result' not in data.columns:
+        print("ERROR: 'Result' column not found in the dataset.")
         return None, None, None, None, []
     
-    # Print unique values in Result column to verify
-    print(f"\nUnique values in {result_column} column: {data[result_column].unique()}")
+    # Print unique values in the 'Result' column to verify
+    print(f"\nUnique values in 'Result' column: {data['Result'].unique()}")
     
-    # Define potential feature names (including common variations)
-    potential_features = {
-        'possession': ['PossessionPercentage', 'Possession', 'possession', 'PossessionPercent', 'Ball Possession %'],
-        'shots': ['Shots', 'shots', 'TotalShots', 'Total Shots', 'Shot'],
-        'shots_target': ['ShotsOnTarget', 'ShotOnTarget', 'Shots on Target', 'shots_on_target', 'shotsOnTarget'],
-        'passes': ['PassesCompleted', 'Passes', 'CompletedPasses', 'PassesComplete', 'TotalPasses', 'Total Passes'],
-        'pass_accuracy': ['PassAccuracy', 'PassAccuracyPercent', 'Pass Accuracy %', 'pass_accuracy'],
-        'aerial_duels': ['AerialDuelsWon', 'AerialDuels', 'aerial_duels_won', 'Aerial Duels Won'],
-        'tackles': ['TacklesWon', 'Tackles', 'tackles_won', 'TackleWon', 'Tackle'],
-        'interceptions': ['Interceptions', 'Interception', 'interceptions'],
-        'saves': ['Saves', 'GKSaves', 'GoalkeeperSaves', 'Save', 'Goalkeeper Saves'],
-        'fouls': ['Fouls', 'FoulsCommitted', 'fouls', 'Foul'],
-        'yellow_cards': ['YellowCards', 'Yellow Cards', 'yellowcards', 'Yellow', 'YellowCard'],
-        'red_cards': ['RedCards', 'Red Cards', 'redcards', 'Red', 'RedCard'],
-        'offsides': ['Offsides', 'Offside', 'offsides']
-    }
+    # Define the features to be used based on the known column names
+    selected_features = [
+        'Possession (%)', 'Shots on Target', 'xG', 'Pass Accuracy (%)',
+        'Tackles Won', 'Key Passes', 'Goals Scored', 'Goals Conceded',
+        'Injury Impact (%)', 'Rest Days Before Match', 'Opponent Strength (ELO Rating)'
+    ]
     
-    # Find matching columns in the dataset
-    selected_features = []
-    feature_mapping = {}  # Maps our standard names to the actual column names
-    
-    for feature_type, possible_names in potential_features.items():
-        for name in possible_names:
-            if name in data.columns:
-                selected_features.append(name)
-                feature_mapping[feature_type] = name
-                break  # Once we find a match, move to the next feature type
-    
-    if not selected_features:
-        print("ERROR: None of the specified features exist in the dataset.")
-        print("Available columns are:", data.columns.tolist())
+    # Ensure all selected features exist in the dataset
+    missing_features = [feature for feature in selected_features if feature not in data.columns]
+    if missing_features:
+        print(f"ERROR: The following required features are missing from the dataset: {missing_features}")
         return None, None, None, None, []
-    
-    print(f"Found {len(selected_features)} matching features:")
-    for feature_type, column_name in feature_mapping.items():
-        print(f"- Using '{column_name}' for {feature_type}")
     
     # Encode the target variable
     result_map = {'Win': 2, 'Draw': 1, 'Loss': 0}
-    data['MatchResult_Encoded'] = data[result_column].map(result_map)
+    data['MatchResult_Encoded'] = data['Result'].map(result_map)
     
     # Verify encoding worked correctly
     if data['MatchResult_Encoded'].isna().sum() > 0:
-        print("WARNING: Some Result values couldn't be mapped. Check your Result column values.")
-        print(f"Unmapped values: {data[data['MatchResult_Encoded'].isna()][result_column].unique()}")
-        
-        # Fix encoding if needed (modify as appropriate for your dataset)
-        for result in data[result_column].unique():
-            if isinstance(result, str):  # Make sure it's a string before calling lower()
-                if result.lower() == 'win' or 'win' in result.lower():
-                    data.loc[data[result_column] == result, 'MatchResult_Encoded'] = 2
-                elif result.lower() == 'draw' or result.lower() == 'tie' or 'draw' in result.lower():
-                    data.loc[data[result_column] == result, 'MatchResult_Encoded'] = 1
-                elif result.lower() == 'loss' or result.lower() == 'lose' or 'loss' in result.lower() or 'defeat' in result.lower():
-                    data.loc[data[result_column] == result, 'MatchResult_Encoded'] = 0
+        print("WARNING: Some 'Result' values couldn't be mapped. Check your 'Result' column values.")
+        print(f"Unmapped values: {data[data['MatchResult_Encoded'].isna()]['Result'].unique()}")
+        return None, None, None, None, []
     
     # Handle missing values - use mean for numeric columns
     for feature in selected_features:
@@ -253,9 +207,8 @@ def train_and_evaluate_models(X_train, X_test, y_train, y_test):
             ('model', RandomForestClassifier(random_state=42))
         ]),
         
-        'SVM (RBF Kernel)': Pipeline([
-            ('scaler', StandardScaler()),
-            ('model', SVC(kernel='rbf', probability=True, random_state=42))
+        'Gradient Boosting': Pipeline([
+            ('model', GradientBoostingClassifier(random_state=42))
         ])
     }
     
@@ -272,9 +225,10 @@ def train_and_evaluate_models(X_train, X_test, y_train, y_test):
             'model__min_samples_split': [2, 5]
         },
         
-        'SVM (RBF Kernel)': {
-            'model__C': [0.1, 1, 10, 100],
-            'model__gamma': ['scale', 'auto', 0.1, 0.01]
+        'Gradient Boosting': {
+            'model__n_estimators': [50, 100, 200],
+            'model__learning_rate': [0.01, 0.1, 0.2],
+            'model__max_depth': [3, 5, 7]
         }
     }
     
@@ -441,27 +395,22 @@ def analyze_feature_importance(model_results, best_model_name, features):
             print("Could not extract coefficients from Logistic Regression model.")
             return
     
-    elif best_model_name == 'Random Forest':
+    elif best_model_name in ['Random Forest', 'Gradient Boosting']:
         if hasattr(model, 'feature_importances_'):
             importance = model.feature_importances_
         else:
-            print("Could not extract feature importances from Random Forest model.")
+            print(f"Could not extract feature importances from {best_model_name} model.")
             return
     
-    elif best_model_name == 'SVM (RBF Kernel)':
-        # SVMs don't have direct feature importance, so we'll use permutation importance
-        # which is more computation-intensive but works for any model
+    else:
+        # Use permutation importance for other models
         from sklearn.inspection import permutation_importance
         
-        # This part might take some time to compute
-        print("Computing permutation importance for SVM (this may take a few moments)...")
+        print(f"Computing permutation importance for {best_model_name} (this may take a few moments)...")
         perm_importance = permutation_importance(best_model, X_test, y_test, 
-                                                n_repeats=10, random_state=42)
+                                               n_repeats=10, random_state=42)
         importance = perm_importance.importances_mean
-    else:
-        print(f"Feature importance analysis not implemented for model type: {best_model_name}")
-        return
-    
+
     # Create feature importance dataframe
     feature_importance = pd.DataFrame({
         'Feature': features,
