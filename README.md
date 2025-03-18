@@ -14,15 +14,6 @@ This project implements machine learning models to predict FC Barcelona match ou
 3. **Run the Script**  
    Execute the Python script to load the dataset, preprocess the data, train machine learning models, and evaluate their performance.
 
-## Project Overview
-
-The project includes the following steps:
-- **Data Loading and Exploration**: Load the dataset and explore its structure and contents.
-- **Exploratory Data Analysis (EDA)**: Analyze and visualize the dataset to understand patterns and distributions.
-- **Data Preprocessing**: Prepare the data for machine learning by handling missing values, encoding categorical variables, and scaling features.
-- **Model Training and Evaluation**: Train and evaluate Logistic Regression, Random Forest, and SVM models using accuracy, F1-score, and confusion matrices.
-- **Model Comparison**: Compare the performance of the models and identify the best-performing one.
-- **Feature Importance Analysis**: Analyze the importance of features for the best-performing model.
 
 ## Dependencies
 
@@ -35,4 +26,4 @@ The project requires the following Python libraries:
 
 Install the dependencies using the following command:
 ```bash
-pip install -r [requirements.txt](http://_vscodecontentref_/0)
+pip install -r [requirements.txt]
