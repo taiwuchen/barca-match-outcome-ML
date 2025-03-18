@@ -33,7 +33,7 @@ In sum, this problem addresses a key sporting challenge: **understanding and imp
 ### Dataset: FC Barcelona Match Performance Dataset (Kaggle)
 To tackle this problem, we will use the **FC Barcelona Match Performance Dataset** from Kaggle, which contains:
 - **200 match observations** of FC Barcelona.
-- **Key performance indicators (KPIs)** such as possession, shots, passes, fouls, etc.
+- **Key performance indicators (KPIs)** such as possession, shots, passes, etc.
 - Each match’s **result** (win, draw, loss) with **detailed statistics** for Barcelona and their opponents.
 
 ### Why this Dataset?
@@ -43,7 +43,7 @@ To tackle this problem, we will use the **FC Barcelona Match Performance Dataset
 - Aligns perfectly with **Barcelona’s style of play** and competition history.
 - Ensures **relevance** without needing to filter out other teams.
 
-[Link to dataset](#) (Insert link when available)
+Link to dataset: [https://www.kaggle.com/datasets/adnanshaikh10/fc-barcelona-statistics](https://www.kaggle.com/datasets/adnanshaikh10/fc-barcelona-statistics)
 
 ---
 
@@ -63,10 +63,10 @@ In a **structured scikit-learn workflow**, we will experiment with **three diffe
    - Handles **feature interactions automatically**.
    - Provides **feature importance scores** to highlight key KPIs.
 
-3. **Support Vector Machine (RBF Kernel)** (Non-linear Model)
-   - Finds an **optimal separating boundary** between outcome classes.
-   - Handles **overlapping class distributions**.
-   - Good for **medium-sized datasets** (200 samples).
+3. **Gradient Boosting Classifier** (Non-linear Model)
+   - Finds an **ensemble learning technique** that builds multiple decision trees sequentially.
+   - Improves upon weak models iteratively to enhance predictive performance.
+   - Well-suited for structured data and **highly competitive in predictive performance**
 
 ### Model Evaluation:
 - **Data Preprocessing** (handling missing values, normalizing features).
