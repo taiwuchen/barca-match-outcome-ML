@@ -1,6 +1,6 @@
 # FC Barcelona Match Outcome Prediction using Machine Learning
 
-This project implements machine learning models to predict FC Barcelona match outcomes. The models compare Logistic Regression, Random Forest, and SVM to predict whether Barcelona will win, draw, or lose based on performance metrics.
+This project implements machine learning models to predict FC Barcelona match outcomes. The models compare Logistic Regression, Random Forest, and Gradient Boosting to predict whether Barcelona will win, draw, or lose based on performance metrics.
 
 ## Instructions
 
