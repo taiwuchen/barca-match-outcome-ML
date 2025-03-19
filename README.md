@@ -11,8 +11,8 @@ This project implements machine learning models to predict FC Barcelona match ou
 2. **Save the Dataset**  
    Save the downloaded CSV file in the same directory as this project.
 
-3. **Run the Script**  
-   Execute the Python script to load the dataset, preprocess the data, train machine learning models, and evaluate their performance.
+3. **Run the Notebook**  
+   Open the `main.ipynb` Jupyter Notebook and run all cells to load the dataset, preprocess the data, train machine learning models, and evaluate their performance.
 
 
 ## Dependencies
@@ -26,4 +26,4 @@ The project requires the following Python libraries:
 
 Install the dependencies using the following command:
 ```bash
-pip install -r [requirements.txt]
+pip install -r requirements.txt
